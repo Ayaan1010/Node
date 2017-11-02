@@ -1,0 +1,102 @@
+
+  body {
+  background: #aaa;
+  
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 400px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+/* Reset top and bottom margins from certain elements */
+.header,
+.container p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* The triangle form is achieved by a CSS hack */
+.triangle {
+  width: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 12px solid transparent;
+  border-bottom-color: #28d;
+}
+
+.header {
+  background: #28d;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.form-container {
+  background: #ebebeb;
+  padding: 12px;
+}
+
+/* Every row inside .form-container is defined with p tags */
+.container p {
+  padding: 12px;
+}
+
+.container input {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+}
+
+.large-btn :hover  {
+  background: #17c;
+}
+
+.large-btn {
+  background: #28d;
+  border-color: transparent;
+  color: #fff;
+  c
+  
+}
+
+
+
+/* Buttons' focus effect */
+.large-btn:focus {
+  border-color: #05a;
+}
+
+.btn {
+	background-color: #f7f7f7;
+    border: 1px solid #334b97;
+    color: #334b97;
+	border-radius: 15px;
+    width: 60px;
+    padding-top: 10px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+	margin:2px;
+    
+   
+}
+.btn:hover {
+	background-color: transparent;
+    color: #008ed6;
+    text-decoration: none;
+	
+		
+    
+    
+	
+}

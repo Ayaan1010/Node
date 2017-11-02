@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel='stylesheet' href='css/style.css' />
+</head>
+
+<style>
+
+.container {
+  width: 500px;
+  margin: 16px auto;
+  font-size: 16px;
+}
+
+.table {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+	width: -webkit-fill-available;
+}
+.table thead th {
+    background-color: #f7f7f7;
+    border: solid 1px #ccc;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+.table tbody td {
+    border: solid 1px #ccc;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+	background-color: #f7f7f7;
+}
+
+</style>
+<body>
+<div class="container">
+  <div class="triangle"></div>
+  
+  <h2 class="header">Dashboard</h2>
+  <div class="form-container">
+  <p> Here is a list of the notes that you have created. You can create another one by clicking <a href="/createnote.html"> this </a> </p>
+
+  <table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Content</th>
+			<th>Category</th>
+           <th>Edit/Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Test 1</td>
+            <td>Test</td>
+			<td>Test</td>
+           <td><input type="submit" class="btn" value="Edit"/> <input type="submit" class="btn" value="Del"/></td>
+        </tr>
+       
+        <tr>
+            <td>Test 2</td>
+            <td>Test</td>
+			<td>Test</td>
+            <td><input type="submit" class="btn" value="Edit"/> <input type="submit" class="btn" value="Del"/></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+ </div>
+
+</body>
+</html>

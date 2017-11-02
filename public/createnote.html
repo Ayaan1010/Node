@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Note</title>
+  <link rel='stylesheet' href='css/style.css' />
+
+</head>
+<body>
+<div class="container">
+  <div class="triangle"></div>
+  
+  <h2 class="header">Create Note  </h2>
+
+  <form class="form-container">
+    <p><input type="text" placeholder="Title"></p>
+    <p>Add Images<input type="file"></p>
+	<p><select  style="position:absolute;width:300px; height:35px;line-height:20px;margin:0;padding:0;" onchange="document.getElementById('categories').value=this.options[this.selectedIndex].text; document.getElementById('idValue').value=this.options[this.selectedIndex].value;" >
+   				<option>1</option><option>2</option><option>3</option><option>4</option></select>
+				<input  name="categories" id="categories" style="position:absolute;width:280px;height:30px;border:1px solid #556;" type="text" onfocus="this.select()">
+				<input name="idValue" id="idValue" type="hidden"></p>
+
+	<p><textarea  name="description" rows="15" cols="47" placeholder="Description"  required></textarea></p>
+    <p><input type="submit" class="large-btn" value="Create Note"></p>
+  </form>
+
+</div>
+</body>
+</html>
+
+
+
+
